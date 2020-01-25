@@ -7,12 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Resilience</title>
     <meta property="og:type" content="website" />
-     />
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta property="fb:app_id" content="257953674358265" />
     <meta name="format-detection" content="telephone=no" />
@@ -35,7 +33,8 @@
     <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-zoom-2.0.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:40..|Oswald:400,500,600,700|Roboto:400,500,700,900&display=swap&subset=cyrillic" type="text/css" />
-    <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js"></script>
+    <!-- <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://static.tildacdn.com/js/tilda-scripts-2.8.min.js"></script>
     <script src="https://tilda.ws/project871851/tilda-blocks-2.7.js?t=1576939599"></script>
     <script src="https://static.tildacdn.com/js/lazyload-1.3.min.js" charset="utf-8"></script>
@@ -47,6 +46,15 @@
     <script src="https://static.tildacdn.com/js/tilda-zoom-2.0.min.js" charset="utf-8"></script>
     <script src="https://static.tildacdn.com/js/tilda-animation-ext-1.0.min.js" charset="utf-8"></script>
     <script src="https://static.tildacdn.com/js/typed.min.js" charset="utf-8"></script>
+
+    <!-- TIMELINE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./landing_Page_files/timeline.css">
+    <!-- TIMELINE CLOSE -->
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51975323, "init", { id:51975323, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
@@ -56,12 +64,11 @@
         window.dataLayer = window.dataLayer || [];
     </script>
 
-
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
-
-
+    <style type="text/css">
+        #146411706{
+            display: none;
+        }
+    </style>
 
 </head>
 
@@ -165,7 +172,7 @@
                                     <!-- <div class="t-sociallinks__item">
                                         <a href="https://www.facebook.com/flatonica/" target="_blank"> <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Facebook</desc><path style="fill:#ffffff;" d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"/></svg> </a>
                                     </div> -->
-<!--                                     <div class="t-sociallinks__item">
+                                    <!--                                     <div class="t-sociallinks__item">
                                         <a href="https://vk.com/flatonica.studio" target="_blank"> 
                                             <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>VK</desc><path style="fill:#ffffff;" d="M47.761,24c0,13.121-10.639,23.76-23.76,23.76C10.878,47.76,0.239,37.121,0.239,24c0-13.123,10.639-23.76,23.762-23.76C37.122,0.24,47.761,10.877,47.761,24 M35.259,28.999c-2.621-2.433-2.271-2.041,0.89-6.25c1.923-2.562,2.696-4.126,2.45-4.796c-0.227-0.639-1.64-0.469-1.64-0.469l-4.71,0.029c0,0-0.351-0.048-0.609,0.106c-0.249,0.151-0.414,0.505-0.414,0.505s-0.742,1.982-1.734,3.669c-2.094,3.559-2.935,3.747-3.277,3.524c-0.796-0.516-0.597-2.068-0.597-3.171c0-3.449,0.522-4.887-1.02-5.259c-0.511-0.124-0.887-0.205-2.195-0.219c-1.678-0.016-3.101,0.007-3.904,0.398c-0.536,0.263-0.949,0.847-0.697,0.88c0.31,0.041,1.016,0.192,1.388,0.699c0.484,0.656,0.464,2.131,0.464,2.131s0.282,4.056-0.646,4.561c-0.632,0.347-1.503-0.36-3.37-3.588c-0.958-1.652-1.68-3.481-1.68-3.481s-0.14-0.344-0.392-0.527c-0.299-0.222-0.722-0.298-0.722-0.298l-4.469,0.018c0,0-0.674-0.003-0.919,0.289c-0.219,0.259-0.018,0.752-0.018,0.752s3.499,8.104,7.573,12.23c3.638,3.784,7.764,3.36,7.764,3.36h1.867c0,0,0.566,0.113,0.854-0.189c0.265-0.288,0.256-0.646,0.256-0.646s-0.034-2.512,1.129-2.883c1.15-0.36,2.624,2.429,4.188,3.497c1.182,0.812,2.079,0.633,2.079,0.633l4.181-0.056c0,0,2.186-0.136,1.149-1.858C38.281,32.451,37.763,31.321,35.259,28.999"/></svg> </a>
                                     </div> -->
@@ -551,27 +558,24 @@
                         <h1 class='tn-atom'></h1>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1416727071561226226045 t-animate' data-elem-id='1561226226045' data-elem-type='text' data-field-top-value="52" data-field-top-res-960-value="49" data-field-top-res-640-value="43" data-field-top-res-480-value="23" data-field-top-res-320-value="1" data-field-left-value="-278" data-field-left-res-960-value="-138" data-field-left-res-640-value="-115" data-field-left-res-480-value="-25" data-field-left-res-320-value="-8" data-field-width-value="600" data-field-width-res-960-value="660" data-field-width-res-640-value="390" data-field-width-res-480-value="410" data-field-width-res-320-value="280" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="50" style="width: 100%">
-                        <h3 class='tn-atom' style="display: flex; justify-content:space-between; "> 
-                        Tired of all the repetitive ideation and entrepreneurship competitions you’ve been to? If yes, then this platform is the perfect opportunity to show off the creative entrepreneur inside you!
-                        <br>
+                        <h3 class='tn-atom' style="display: flex; justify-content:space-between; ">
+                            Tired of all the repetitive ideation and entrepreneurship competitions you’ve been to? If yes, then this platform is the perfect opportunity to show off the creative entrepreneur inside you!
+                            <!-- <br>
                         Resilience is an online entrepreneurship challenge organised by E-Cell of RV College of Engineering, which will keep your minds engaging for over a month with exciting tasks. Three to four members will be working as a team to tackle the thought-provoking tasks given and meeting the deadlines.
+ -->
 
-                        
-
-
-
-                    </h3>
+                        </h3>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1416727071561301194625 t-animate' data-elem-id='1561301194625' data-elem-type='text' data-field-top-value="-325" data-field-top-res-960-value="-346" data-field-top-res-640-value="-247" data-field-top-res-480-value="-256" data-field-top-res-320-value="-230" data-field-left-value="-385" data-field-left-res-960-value="-274" data-field-left-res-640-value="-114" data-field-left-res-480-value="8" data-field-left-res-320-value="11" data-field-width-value="390" data-field-width-res-960-value="390" data-field-width-res-640-value="390" data-field-width-res-480-value="470" data-field-width-res-320-value="320" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.4" data-animate-distance="50">
                         <h1 class='tn-atom'>ECELL RVCE PRESENTS</h1>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1416727071565578768021 t-animate' data-elem-id='1565578768021' data-elem-type='image' data-field-top-value="125" data-field-top-res-960-value="45" data-field-top-res-640-value="32" data-field-top-res-480-value="70" data-field-top-res-320-value="30" data-field-left-value="881" data-field-left-res-960-value="540" data-field-left-res-640-value="320" data-field-left-res-480-value="270" data-field-left-res-320-value="-810" data-field-width-value="570" data-field-width-res-960-value="600" data-field-width-res-640-value="400" data-field-width-res-480-value="300" data-field-width-res-320-value="359" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="100">
-                        <div class='tn-atom'> <img class='tn-atom__img t-img' data-original='landing Page_files/smith_flatonica.svg' imgfield='tn_img_1565578768021'> </div>
+                        <div class='tn-atom'> <img class='tn-atom__img t-img' data-original='landing_Page_files/smith_flatonica.svg' imgfield='tn_img_1565578768021'> </div>
                     </div>
-                    <!-- <div class='t396__elem tn-elem tn-elem__1416727071576135867691 t-animate' data-elem-id='1576135867691' data-elem-type='button' data-field-top-value="643" data-field-top-res-960-value="672" data-field-top-res-640-value="522" data-field-top-res-480-value="499" data-field-top-res-320-value="451" data-field-left-value="22" data-field-left-res-960-value="12" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-height-value="85" data-field-height-res-640-value="75" data-field-height-res-320-value="75" data-field-width-value="350" data-field-width-res-640-value="380" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="50"> <a class='tn-atom' href="https://docs.google.com/forms/d/e/1FAIpQLSf7g04rnzl8D1HZlx93Yd-9ZCtFC-oKg31qKZE0bDC9wyrcsw/viewform?usp=sf_link">E-cell RVCE</a> </div> -->
-                    
+                    <div class='t396__elem tn-elem tn-elem__1416727071576135867691 t-animate' data-elem-id='1576135867691' data-elem-type='button' data-field-top-value="643" data-field-top-res-960-value="672" data-field-top-res-640-value="522" data-field-top-res-480-value="499" data-field-top-res-320-value="451" data-field-left-value="22" data-field-left-res-960-value="12" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-height-value="85" data-field-height-res-640-value="75" data-field-height-res-320-value="75" data-field-width-value="350" data-field-width-res-640-value="380" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="50"> <a class='tn-atom' href="https://docs.google.com/forms/d/e/1FAIpQLSf7g04rnzl8D1HZlx93Yd-9ZCtFC-oKg31qKZE0bDC9wyrcsw/viewform?usp=sf_link">E-cell RVCE</a> </div>
+
                     <div class='t396__elem tn-elem tn-elem__1416727071576136379879 t-animate' data-elem-id='1576136379879' data-elem-type='image' data-field-top-value="852" data-field-top-res-960-value="914" data-field-top-res-640-value="691" data-field-top-res-480-value="681" data-field-top-res-320-value="614" data-field-left-value="22" data-field-left-res-960-value="22" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="70" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="50">
-                        
+
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1416727071576137649200 t-animate' data-elem-id='1576137649200' data-elem-type='text' data-field-top-value="-261" data-field-top-res-960-value="-285" data-field-top-res-640-value="-195" data-field-top-res-480-value="-208" data-field-top-res-320-value="-195" data-field-left-value="-240" data-field-left-res-960-value="-128" data-field-left-res-640-value="-89" data-field-left-res-480-value="-9" data-field-left-res-320-value="-15" data-field-width-value="680" data-field-width-res-640-value="440" data-field-width-res-480-value="440" data-field-width-res-320-value="270" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="1.5" data-animate-delay="0.5" data-animate-distance="50">
                         <h1 class='tn-atom'> </h1>
@@ -579,11 +583,11 @@
                     <div class='t396__elem tn-elem tn-elem__1416727071576137827583 t-animate' data-elem-id='1576137827583' data-elem-type='text' data-field-top-value="-172" data-field-top-res-960-value="-197" data-field-top-res-640-value="-133" data-field-top-res-480-value="-150" data-field-top-res-320-value="-153" data-field-left-value="-240" data-field-left-res-960-value="-130" data-field-left-res-640-value="-89" data-field-left-res-480-value="-10" data-field-left-res-320-value="-30" data-field-width-value="680" data-field-width-res-640-value="440" data-field-width-res-480-value="440" data-field-width-res-320-value="240" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="1.5" data-animate-delay="0.6" data-animate-distance="50">
                         <h1 class='tn-atom'>RESILIENCE</h1>
                     </div>
-                    <div class='t396__elem tn-elem tn-elem__1416727071576137870030 t-animate' data-elem-id='1576137870030' data-elem-type='text' data-field-top-value="-83" data-field-top-res-960-value="-103" data-field-top-res-640-value="-70" data-field-top-res-480-value="-91" data-field-top-res-320-value="-110" data-field-left-value="-241" data-field-left-res-960-value="-128" data-field-left-res-640-value="-89" data-field-left-res-480-value="-9" data-field-left-res-320-value="-29" data-field-width-value="680" data-field-width-res-640-value="440" data-field-width-res-480-value="440" data-field-width-res-320-value="240" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="1.5" data-animate-delay="0.7" data-animate-distance="50">
-                        <h1 class='tn-atom'></h1>
-                    </div>
+                    <!--                     <div class='t396__elem tn-elem tn-elem__1416727071576137870030 t-animate' data-elem-id='1576137870030' data-elem-type='text' data-field-top-value="-83" data-field-top-res-960-value="-103" data-field-top-res-640-value="-70" data-field-top-res-480-value="-91" data-field-top-res-320-value="-110" data-field-left-value="-241" data-field-left-res-960-value="-128" data-field-left-res-640-value="-89" data-field-left-res-480-value="-9" data-field-left-res-320-value="-29" data-field-width-value="680" data-field-width-res-640-value="440" data-field-width-res-480-value="440" data-field-width-res-320-value="240" data-field-axisy-value="center" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="1.5" data-animate-delay="0.7" data-animate-distance="50">
+                        <h1 class='tn-atom'>COMPETERION</h1>
+                    </div> -->
                     <div class='t396__elem tn-elem tn-elem__1416727071576138989173 t-animate' data-elem-id='1576138989173' data-elem-type='image' data-field-top-value="123" data-field-top-res-960-value="35" data-field-left-value="880" data-field-left-res-960-value="1551" data-field-width-value="570" data-field-width-res-960-value="50" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-delay="0.7" data-animate-distance="100" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
-<!--                         <div class='tn-atom'> 
+                        <!--                         <div class='tn-atom'> 
                             <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3965-6366-4338-b639-316234616335/smith_flatonica2.png' imgfield='tn_img_1576138989173'>
                              </div> -->
                     </div>
@@ -624,29 +628,24 @@
 
                         <div class="w3-half tn-atom w3-margin-bottom">
                             <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                              <li class="w3-dark-grey w3-xlarge ">FAQs</li>
-                              <li class="w3-padding-16">
-                                <strong>What is the competition about?</strong> <br>  
-                                It is an entrepreneurship which assesses your team building and creativity abilities based on a series of tasks.
-                             </li>
-                              <li class="w3-padding-16">
-                                <strong>Is this an ideation competition?</strong> <br>  
-                                No, this is not an ideation competition. You needn’t have an idea planned prior to the competition. The competition explores the other facets of entrepreneurship.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>What is the number of members in a team?</strong> <br>  
-                                There can be three to four members on a team.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>What is the duration of the competition?</strong> <br>  
-                                The competition spans over a period of a month and a half.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>Are there any pre-requisites for the competition?</strong> <br>  
-                                No. Teams can directly register for the competition and start with the tasks. There is no requirement for teams to have prior skills or knowledge. The competition is designed to help develop skills and provide experiential learning to entrepreneurs.
-                              </li>
+                                <li class="w3-dark-grey w3-xlarge ">FAQs</li>
+                                <li class="w3-padding-16">
+                                    <strong>What is the competition about?</strong> <br> It is an entrepreneurship which assesses your team building and creativity abilities based on a series of tasks.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>Is this an ideation competition?</strong> <br> No, this is not an ideation competition. You needn’t have an idea planned prior to the competition. The competition explores the other facets of entrepreneurship.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>What is the number of members in a team?</strong> <br> There can be three to four members on a team.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>What is the duration of the competition?</strong> <br> The competition spans over a period of a month and a half.
+                                </li>
+                                <!-- <li class="w3-padding-16">
+                                    <strong>Are there any pre-requisites for the competition?</strong> <br> No. Teams can directly register for the competition and start with the tasks. There is no requirement for teams to have prior skills or knowledge. The competition is designed to help develop skills and provide experiential learning to entrepreneurs.
+                                </li> -->
                             </ul>
-                      </div>
+                        </div>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061539512208223 t-animate' data-elem-id='1539512208223' data-elem-type='image' data-field-top-value="2035" data-field-top-res-960-value="2029" data-field-top-res-640-value="2399" data-field-top-res-480-value="2458" data-field-top-res-320-value="2076" data-field-left-value="100" data-field-left-res-960-value="1" data-field-left-res-640-value="80" data-field-left-res-480-value="10" data-field-left-res-320-value="15" data-field-width-value="600" data-field-width-res-960-value="560" data-field-width-res-640-value="480" data-field-width-res-480-value="460" data-field-width-res-320-value="290" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <a class='tn-atom' href="#"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild6262-6535-4134-a464-323338303462/Image.png' imgfield='tn_img_1539512208223'> </a>
@@ -674,35 +673,34 @@
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061540034820011 t-animate' data-elem-id='1540034820011' data-elem-type='shape' data-field-top-value="4408" data-field-top-res-960-value="4244" data-field-top-res-640-value="6004" data-field-top-res-480-value="6704" data-field-top-res-320-value="6490" data-field-left-value="619" data-field-left-res-960-value="591" data-field-left-res-640-value="12" data-field-left-res-480-value="9" data-field-left-res-320-value="10" data-field-height-value="592" data-field-height-res-640-value="592" data-field-height-res-480-value="559" data-field-height-res-320-value="385" data-field-width-value="560" data-field-width-res-960-value="359" data-field-width-res-640-value="620" data-field-width-res-480-value="457" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
 
-                        
                         <div class="w3-half tn-atom w3-margin-bottom">
                             <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                              <li class="w3-dark-grey w3-xlarge ">FAQs</li>
-                              <li class="w3-padding-16">
-                                <strong>Is it necessary for the team members to be from the same college?</strong> <br>  
-                                No, the members of the teams can be from different colleges too. There is no restriction to stick to one college to get team members.
-                             </li>
-                              <li class="w3-padding-16">
-                                <strong>Is there a limit on how many teams can register from a college/city?</strong> <br>  
-                                No. There is no restriction on number of teams.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>Is the competition only open to undergraduates?</strong> <br>  
-                                No. There is no limitation on age, institute or city. It is a pan-India competition open to all age groups.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>How can we monitor our progress?</strong> <br>  
-                                Teams will be provided with access to links where the leaderboard will be updated regularly.
-                              </li>
-                              <li class="w3-padding-16">
-                                <strong>Who do the participants contact if help is needed? </strong> <br>  
-                                There is going to be a mentor for each team that participants. Apart from the mentor, there is going to be a Point of Contact, if there are any queries are to be clarified. 
-                              </li>
+                                <li class="w3-dark-grey w3-xlarge ">FAQs</li>
+                                <li class="w3-padding-16">
+                                    <strong>Is it necessary for the team members to be from the same college?</strong> <br> No, the members of the teams can be from different colleges too. There is no restriction to stick to one college to get team members.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>Is there a limit on how many teams can register from a college/city?</strong> <br> No. There is no restriction on number of teams.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>Is the competition only open to undergraduates?</strong> <br> No. There is no limitation on age, institute or city. It is a pan-India competition open to all age groups.
+                                </li>
+                                <li class="w3-padding-16">
+                                    <strong>How can we monitor our progress?</strong> <br> Teams will be provided with access to links where the leaderboard will be updated regularly.
+                                </li>
+                                <!--
+                                <li class="w3-padding-16">
+                                     <strong>Who do the participants contact if help is needed? </strong> <br> There is going to be a mentor for each team that participants. Apart from the mentor, there is going to be a Point of Contact, if there are any queries are to be clarified.
+                                </li> -->
                             </ul>
-                      </div>
+                        </div>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061540042838105 t-animate' data-elem-id='1540042838105' data-elem-type='text' data-field-top-value="-2332" data-field-top-res-960-value="-2135" data-field-top-res-640-value="-3032" data-field-top-res-480-value="-3369" data-field-top-res-320-value="-3069" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="11" data-field-left-res-320-value="11" data-field-width-value="960" data-field-width-res-960-value="930" data-field-width-res-640-value="580" data-field-width-res-480-value="440" data-field-width-res-320-value="290" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
-                        <h3 class='tn-atom'>We are proud members of E-Cell, RVCE, that stand to <strong><u>Kindle</u></strong> new ideas, <strong><u>Create</u></strong> opportunities to realize them and <strong><u>Incubate</u></strong> them to develop these ideas slowly and bring them to hatching. We believe in our very capable youth in coming up with innovative ideas to tackle various problems and set up successful establishments. This however cannot be done without overcoming fear of failure and without right guidance.<br></h3>
+                        <h3 class='tn-atom'><br> We are proud members of E-Cell, RVCE, that stand to <strong><u>Kindle</u></strong> new ideas, <strong><u>Create</u></strong> opportunities to realize them and <strong><u>Incubate</u></strong> them to develop these ideas slowly and bring them to hatching. We believe in our very capable youth in coming up with innovative ideas to tackle various problems and set up successful establishments.
+
+                            <br><br><br><br>
+                            <br>
+                        </h3>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061540061540278 t-animate' data-elem-id='1540061540278' data-elem-type='text' data-field-top-value="1247" data-field-top-res-960-value="1205" data-field-top-res-640-value="1341" data-field-top-res-480-value="1395" data-field-top-res-320-value="1201" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="180" data-field-left-res-480-value="100" data-field-left-res-320-value="1" data-field-width-value="1161" data-field-width-res-960-value="301" data-field-width-res-640-value="281" data-field-width-res-320-value="318" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <h1 class='tn-atom'>BENEFITS</h1>
@@ -734,7 +732,7 @@
                     <div class='t396__elem tn-elem tn-elem__1464117061540062347459 t-animate' data-elem-id='1540062347459' data-elem-type='text' data-field-top-value="4211" data-field-top-res-960-value="4065" data-field-top-res-640-value="5196" data-field-top-res-480-value="5647" data-field-top-res-320-value="5621" data-field-left-value="140" data-field-left-res-960-value="131" data-field-left-res-640-value="27" data-field-left-res-480-value="258" data-field-left-res-320-value="6" data-field-width-value="240" data-field-width-res-960-value="160" data-field-width-res-640-value="160" data-field-width-res-320-value="310" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinright" data-animate-duration="1" data-animate-distance="100">
                         <div class='tn-atom' field='tn_text_1540062347459'>Lorem ipsum</div>
                     </div>
-<!--                     <div class='t396__elem tn-elem tn-elem__1464117061540126090553 t-animate' data-elem-id='1540126090553' data-elem-type='image' data-field-top-value="4482" data-field-top-res-960-value="4338" data-field-top-res-640-value="5425" data-field-top-res-480-value="6095" data-field-top-res-320-value="6024" data-field-left-value="56" data-field-left-res-960-value="46" data-field-left-res-640-value="47" data-field-left-res-480-value="15" data-field-left-res-320-value="25" data-field-width-value="490" data-field-width-res-960-value="460" data-field-width-res-640-value="550" data-field-width-res-480-value="450" data-field-width-res-320-value="270" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
+                    <!--                     <div class='t396__elem tn-elem tn-elem__1464117061540126090553 t-animate' data-elem-id='1540126090553' data-elem-type='image' data-field-top-value="4482" data-field-top-res-960-value="4338" data-field-top-res-640-value="5425" data-field-top-res-480-value="6095" data-field-top-res-320-value="6024" data-field-left-value="56" data-field-left-res-960-value="46" data-field-left-res-640-value="47" data-field-left-res-480-value="15" data-field-left-res-320-value="25" data-field-width-value="490" data-field-width-res-960-value="460" data-field-width-res-640-value="550" data-field-width-res-480-value="450" data-field-width-res-320-value="270" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <a class='tn-atom' href="https://www.behance.net/gallery/55620247/StarStars-Responsive-Online-Magazine-(UIUX)" target="_blank"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3330-3364-4163-a562-616461306139/Image.png' imgfield='tn_img_1540126090553'> </a>
                     </div> -->
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061540622895736 t-animate' data-elem-id='1540622895736' data-elem-type='image' data-field-top-value="4482" data-field-top-res-960-value="4343" data-field-top-res-640-value="6065" data-field-top-res-480-value="6765" data-field-top-res-320-value="6530" data-field-left-value="654" data-field-left-res-960-value="570" data-field-left-res-640-value="52" data-field-left-res-480-value="15" data-field-left-res-320-value="24" data-field-width-value="490" data-field-width-res-960-value="400" data-field-width-res-640-value="550" data-field-width-res-480-value="450" data-field-width-res-320-value="270" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
@@ -779,7 +777,7 @@
                     <div class='t396__elem tn-elem tn-elem__1464117061547315056276 t-animate' data-elem-id='1547315056276' data-elem-type='text' data-field-top-value="2314" data-field-top-res-960-value="2252" data-field-top-res-640-value="2499" data-field-top-res-480-value="2806" data-field-top-res-320-value="2874" data-field-left-value="-20" data-field-left-res-960-value="-10" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="511" data-field-width-res-640-value="471" data-field-width-res-480-value="321" data-field-width-res-320-value="271" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/55620247/StarStars-Responsive-Online-Magazine-(UIUX)">Онлайн-журнал о звёздах кинематографа</a> </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547315333302 t-animate' data-elem-id='1547315333302' data-elem-type='text' data-field-top-value="2281" data-field-top-res-960-value="2218" data-field-top-res-640-value="3122" data-field-top-res-480-value="3436" data-field-top-res-320-value="3283" data-field-left-value="600" data-field-left-res-960-value="566" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="581" data-field-width-res-960-value="400" data-field-width-res-640-value="381" data-field-width-res-320-value="171" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/58533011/Redesign-of-Fruitnurse-(UIUX)">REDESIGN OF FRUITNURSE</a> </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547315333311 t-animate' data-elem-id='1547315333311' data-elem-type='text' data-field-top-value="2313" data-field-top-res-960-value="2251" data-field-top-res-640-value="3157" data-field-top-res-480-value="3469" data-field-top-res-320-value="3332" data-field-left-value="600" data-field-left-res-960-value="566" data-field-left-res-640-value="50" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="511" data-field-width-res-960-value="400" data-field-width-res-640-value="341" data-field-width-res-480-value="221" data-field-width-res-320-value="251" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/58533011/Redesign-of-Fruitnurse-(UIUX)">Веб-портал для мам и пап</a> </div> -->
-<!--                     <div class='t396__elem tn-elem tn-elem__1464117061547315605997 t-animate' data-elem-id='1547315605997' data-elem-type='text' data-field-top-value="1023" data-field-top-res-960-value="1023" data-field-top-res-640-value="-143" data-field-top-res-480-value="71" data-field-top-res-320-value="1000" data-field-left-value="-20" data-field-left-res-960-value="-4" data-field-left-res-640-value="366" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="441" data-field-width-res-640-value="181" data-field-width-res-480-value="251" data-field-width-res-320-value="261" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/64499955/BLACK-STAR-BURGER-Redesign">BLACK STAR BURGER</a> </div>
+                    <!--                     <div class='t396__elem tn-elem tn-elem__1464117061547315605997 t-animate' data-elem-id='1547315605997' data-elem-type='text' data-field-top-value="1023" data-field-top-res-960-value="1023" data-field-top-res-640-value="-143" data-field-top-res-480-value="71" data-field-top-res-320-value="1000" data-field-left-value="-20" data-field-left-res-960-value="-4" data-field-left-res-640-value="366" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="441" data-field-width-res-640-value="181" data-field-width-res-480-value="251" data-field-width-res-320-value="261" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/64499955/BLACK-STAR-BURGER-Redesign">BLACK STAR BURGER</a> </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547315606007 t-animate' data-elem-id='1547315606007' data-elem-type='text' data-field-top-value="1055" data-field-top-res-960-value="1055" data-field-top-res-640-value="-76" data-field-top-res-480-value="105" data-field-top-res-320-value="1047" data-field-left-value="-20" data-field-left-res-960-value="-4" data-field-left-res-640-value="368" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="511" data-field-width-res-640-value="161" data-field-width-res-480-value="311" data-field-width-res-320-value="251" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/64499955/BLACK-STAR-BURGER-Redesign">Интернет-магазин быстрого питания</a> </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547315710451 t-animate' data-elem-id='1547315710451' data-elem-type='text' data-field-top-value="1023" data-field-top-res-960-value="1023" data-field-top-res-640-value="1139" data-field-top-res-480-value="1162" data-field-top-res-320-value="442" data-field-left-value="390" data-field-left-res-960-value="400" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="441" data-field-width-res-640-value="371" data-field-width-res-320-value="241" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/61131843/OXXXYMIRON-x-IMPERIVM-Redesign">OXXXYMIRON x IMPERIVM</a> </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547315710459 t-animate' data-elem-id='1547315710459' data-elem-type='text' data-field-top-value="1054" data-field-top-res-960-value="1055" data-field-top-res-640-value="1171" data-field-top-res-480-value="1195" data-field-top-res-320-value="488" data-field-left-value="390" data-field-left-res-960-value="400" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="511" data-field-width-res-640-value="341" data-field-width-res-320-value="261" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://www.behance.net/gallery/61131843/OXXXYMIRON-x-IMPERIVM-Redesign">Промо-сайт рэп-исполнителя</a> </div> -->
@@ -817,7 +815,7 @@
                     <div class='t396__elem tn-elem tn-elem__1464117061547406406904 t-animate' data-elem-id='1547406406904' data-elem-type='image' data-field-top-value="3127" data-field-top-res-960-value="3023" data-field-top-res-640-value="4118" data-field-top-res-480-value="4524" data-field-top-res-320-value="1900" data-field-left-value="1110" data-field-left-res-960-value="880" data-field-left-res-640-value="540" data-field-left-res-480-value="390" data-field-left-res-320-value="-540" data-field-width-value="100" data-field-width-res-320-value="60" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
                         <a class='tn-atom' href="#"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild6264-3762-4333-b635-623937393163/item03.png' imgfield='tn_img_1547406406904'> </a>
                     </div>
-                   <!--  <div class='t396__elem tn-elem tn-elem__1464117061547407069327 t-animate' data-elem-id='1547407069327' data-elem-type='image' data-field-top-value="4363" data-field-top-res-960-value="4199" data-field-top-res-640-value="5316" data-field-top-res-480-value="5986" data-field-top-res-320-value="5952" data-field-left-value="0" data-field-left-res-960-value="-30" data-field-left-res-640-value="0" data-field-left-res-480-value="-9" data-field-left-res-320-value="5" data-field-width-value="300" data-field-width-res-640-value="280" data-field-width-res-320-value="170" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
+                    <!--  <div class='t396__elem tn-elem tn-elem__1464117061547407069327 t-animate' data-elem-id='1547407069327' data-elem-type='image' data-field-top-value="4363" data-field-top-res-960-value="4199" data-field-top-res-640-value="5316" data-field-top-res-480-value="5986" data-field-top-res-320-value="5952" data-field-left-value="0" data-field-left-res-960-value="-30" data-field-left-res-640-value="0" data-field-left-res-480-value="-9" data-field-left-res-320-value="5" data-field-width-value="300" data-field-width-res-640-value="280" data-field-width-res-320-value="170" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
                         <a class='tn-atom' href="https://www.behance.net/gallery/55620247/StarStars-Responsive-Online-Magazine-(UIUX)"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3963-3361-4164-b733-376435356161/item01.png' imgfield='tn_img_1547407069327'> </a>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061547407139916 t-animate' data-elem-id='1547407139916' data-elem-type='image' data-field-top-value="4733" data-field-top-res-960-value="4732" data-field-top-res-640-value="5676" data-field-top-res-480-value="6346" data-field-top-res-320-value="6162" data-field-left-value="420" data-field-left-res-960-value="390" data-field-left-res-640-value="440" data-field-left-res-480-value="311" data-field-left-res-320-value="193" data-field-width-value="180" data-field-width-res-960-value="150" data-field-width-res-640-value="180" data-field-width-res-480-value="160" data-field-width-res-320-value="120" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
@@ -839,23 +837,21 @@
                     <div class='t396__elem tn-elem tn-elem__1464117061538630556648 t-animate' data-elem-id='1538630556648' data-elem-type='shape' data-field-top-value="1968" data-field-top-res-960-value="1962" data-field-top-res-640-value="2366" data-field-top-res-480-value="2425" data-field-top-res-320-value="2029" data-field-left-value="21" data-field-left-res-960-value="12" data-field-left-res-640-value="11" data-field-left-res-480-value="12" data-field-left-res-320-value="10" data-field-height-value="601" data-field-height-res-960-value="601" data-field-height-res-640-value="477" data-field-height-res-480-value="502" data-field-height-res-320-value="381" data-field-width-value="759" data-field-width-res-960-value="528" data-field-width-res-640-value="620" data-field-width-res-480-value="457" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <a class='tn-atom' href="#"> </a>
                     </div>
-                    
+
                     <div class='t396__elem tn-elem tn-elem__1464117061561608933912 t-animate' data-elem-id='1561608933912' data-elem-type='shape' data-field-top-value="1406" data-field-top-res-960-value="1393" data-field-top-res-640-value="1819" data-field-top-res-480-value="1836" data-field-top-res-320-value="1624" data-field-left-value="21" data-field-left-res-960-value="12" data-field-left-res-640-value="11" data-field-left-res-480-value="12" data-field-left-res-320-value="10" data-field-height-value="476" data-field-height-res-960-value="448" data-field-height-res-640-value="477" data-field-height-res-480-value="502" data-field-height-res-320-value="363" data-field-width-value="1159" data-field-width-res-960-value="940" data-field-width-res-640-value="620" data-field-width-res-480-value="457" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
-                        <a class='tn-atom t-bgimg'  target="_blank" data-original="./images/timelinebg.jpeg" style="background-image:url('./images/timelinebg.jpeg');"> </a>
-                        <img class='tn-atom t-bgimg'src="./images/timelinebg.jpeg">
+                        <a class='tn-atom t-bgimg' target="_blank" data-original="./images/timelinebg.jpeg" style="background-image:url('./images/timelinebg.jpeg');"> </a>
+                        <img class='tn-atom t-bgimg' src="./images/timelinebg.jpeg">
                         <!-- <H2 style="color:red">TODO #2</H2> -->
                     </div>
-                    
+
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061561609415837 t-animate' data-elem-id='1561609415837' data-elem-type='image' data-field-top-value="1436" data-field-top-res-960-value="1427" data-field-top-res-640-value="1794" data-field-top-res-480-value="1850" data-field-top-res-320-value="1615" data-field-left-value="330" data-field-left-res-960-value="267" data-field-left-res-640-value="75" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="520" data-field-width-res-960-value="430" data-field-width-res-640-value="490" data-field-width-res-480-value="470" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <a class='tn-atom' href="https://play.google.com/store/apps/details?id=com.flatonica.raidofbugs" target="_blank"> <img class='tn-atom__img t-img' data-original='./images/timeline.png' imgfield='tn_img_1561609415837'> </a>
                     </div> -->
-                    
+
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061561609466305 t-animate' data-elem-id='1561609466305' data-elem-type='text' data-field-top-value="-835" data-field-top-res-960-value="-775" data-field-top-res-640-value="-1173" data-field-top-res-480-value="-1493" data-field-top-res-320-value="-1602" data-field-left-value="-20" data-field-left-res-960-value="-10" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="181" data-field-width-res-640-value="341" data-field-width-res-320-value="291" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://play.google.com/store/apps/details?id=com.flatonica.raidofbugs" target="_blank">RAID OF BUGS</a> </div>
                     
                     <div class='t396__elem tn-elem tn-elem__1464117061561609466311 t-animate' data-elem-id='1561609466311' data-elem-type='text' data-field-top-value="-803" data-field-top-res-960-value="-744" data-field-top-res-640-value="-1140" data-field-top-res-480-value="-1458" data-field-top-res-320-value="-1559" data-field-left-value="-20" data-field-left-res-960-value="-10" data-field-left-res-640-value="50" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="301" data-field-width-res-640-value="501" data-field-width-res-480-value="301" data-field-width-res-320-value="221" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://play.google.com/store/apps/details?id=com.flatonica.raidofbugs" target="_blank">Мобильная игра в жанре тайм-киллер</a> </div> -->
 
-                    
-                    
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061561609825369 t-animate' data-elem-id='1561609825369' data-elem-type='image' data-field-top-value="1587" data-field-top-res-960-value="900" data-field-top-res-640-value="500" data-field-top-res-480-value="1210" data-field-top-res-320-value="733" data-field-left-value="90" data-field-left-res-960-value="1816" data-field-left-res-640-value="-1150" data-field-left-res-480-value="-1200" data-field-left-res-320-value="-1250" data-field-width-value="90" data-field-width-res-320-value="90" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
                         <a class='tn-atom' href="https://play.google.com/store/apps/details?id=com.flatonica.raidofbugs" target="_blank"> <img class='tn-atom__img t-img' data-original='https://cdn.pixabay.com/photo/2017/12/29/10/42/post-it-3047231__180.png' imgfield='tn_img_1561609825369'> </a>
                     </div>
@@ -887,18 +883,74 @@
                         <a class='tn-atom' href="https://play.google.com/store/apps/details?id=com.flatonica.raidofbugs" target="_blank"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild6330-3465-4766-b963-623064303533/Slow.png' imgfield='tn_img_1561610046105'> </a>
                     </div> -->
                     <div class='t396__elem tn-elem tn-elem__1464117061561610078011 t-animate' data-elem-id='1561610078011' data-elem-type='image' data-field-top-value="1587" data-field-top-res-960-value="1377" data-field-top-res-640-value="1845" data-field-top-res-480-value="860" data-field-top-res-320-value="583" data-field-left-value="600" data-field-left-res-960-value="80" data-field-left-res-640-value="570" data-field-left-res-480-value="-1190" data-field-left-res-320-value="-1260" data-field-width-value="70" data-field-width-res-960-value="90" data-field-width-res-320-value="90" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
-                        
-                    </div> 
 
-
-
-
-
-                    <div class='t396__elem tn-elem tn-elem__1464117061563728555449 t-animate' data-elem-id='1563728555449' data-elem-type='shape' data-field-top-value="737" data-field-top-res-960-value="755" data-field-top-res-640-value="738" data-field-top-res-480-value="718" data-field-top-res-320-value="734" data-field-left-value="20" data-field-left-res-960-value="12" data-field-left-res-640-value="10" data-field-left-res-480-value="12" data-field-left-res-320-value="10" data-field-height-value="592" data-field-height-res-960-value="560" data-field-height-res-640-value="477" data-field-height-res-480-value="502" data-field-height-res-320-value="399" data-field-width-value="560" data-field-width-res-960-value="528" data-field-width-res-640-value="620" data-field-width-res-480-value="457" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
-                       <H2 style="color: red">TODO #1</H2>
                     </div>
 
+                    <div class='t396__elem tn-elem tn-elem__1464117061563728555449 t-animate' data-elem-id='1563728555449' data-elem-type='shape' data-field-top-value="737" data-field-top-res-960-value="755" data-field-top-res-640-value="738" data-field-top-res-480-value="718" data-field-top-res-320-value="734" data-field-left-value="20" data-field-left-res-960-value="12" data-field-left-res-640-value="10" data-field-left-res-480-value="12" data-field-left-res-320-value="10" data-field-height-value="592" data-field-height-res-960-value="560" data-field-height-res-640-value="477" data-field-height-res-480-value="502" data-field-height-res-320-value="399" data-field-width-value="560" data-field-width-res-960-value="528" data-field-width-res-640-value="620" data-field-width-res-480-value="457" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
+                        <!-- <H2 style="color: red">TODO #1</H2> -->
+                        <a class="tn-atom" href="#" >
+                            <ul class="timeline">
 
+                                <!-- Item 1 -->
+                                <li>
+                                    <div class="direction-r">
+                                        <div class="flag-wrapper">
+                                            <span class="flag">Registration</span>
+                                            <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                                        </div>
+                                        <!-- <div class="desc">My current employment. Way better than the position before!</div> -->
+                                    </div>
+                                </li>
+
+                       
+
+                        <!-- Item 2 -->
+                        <li>
+                            <div class="direction-l">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Task 1
+                </span>
+                                    <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                                </div>
+                                <!-- <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div> -->
+                            </div>
+                        </li>
+
+                        <!-- Item 3 -->
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Task 2</span>
+                                    <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                                </div>
+                                <!--            <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div> -->
+                            </div>
+                        </li>
+                        <!-- Item 3 -->
+                        <li>
+                            <div class="direction-l">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Task 3</span>
+                                    <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                                </div>
+                                <!--            <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div> -->
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="direction-r">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Final Task</span>
+                                    <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                                </div>
+                                <!--            <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div> -->
+                            </div>
+                        </li>
+
+                        </ul>
+                    </a>
+
+                    </div>
 
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061563731199836 t-animate' data-elem-id='1563731199836' data-elem-type='text' data-field-top-value="-1392" data-field-top-res-960-value="-1301" data-field-top-res-640-value="-2257" data-field-top-res-480-value="-2608" data-field-top-res-320-value="-2440" data-field-left-value="-18" data-field-left-res-960-value="-10" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="511" data-field-width-res-960-value="341" data-field-width-res-640-value="341" data-field-width-res-320-value="291" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://flatonica.com/roulette" target="_blank">RULETKA — ONLINE GAMING</a> </div> -->
                     <!-- <div class='t396__elem tn-elem tn-elem__1464117061563731199846 t-animate' data-elem-id='1563731199846' data-elem-type='text' data-field-top-value="-1361" data-field-top-res-960-value="-1270" data-field-top-res-640-value="-2224" data-field-top-res-480-value="-2573" data-field-top-res-320-value="-2406" data-field-left-value="-18" data-field-left-res-960-value="-10" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="201" data-field-width-res-960-value="371" data-field-width-res-640-value="501" data-field-width-res-480-value="351" data-field-width-res-320-value="221" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="https://flatonica.com/roulette" target="_blank">Игровой сервис</a> </div> -->
@@ -923,10 +975,17 @@
                     <div class='t396__elem tn-elem tn-elem__1464117061572866288938 t-animate' data-elem-id='1572866288938' data-elem-type='image' data-field-top-value="1233" data-field-top-res-960-value="956" data-field-top-res-640-value="1571" data-field-top-res-480-value="1527" data-field-top-res-320-value="1366" data-field-left-value="1030" data-field-left-res-960-value="864" data-field-left-res-640-value="460" data-field-left-res-480-value="340" data-field-left-res-320-value="220" data-field-width-value="140" data-field-width-res-960-value="120" data-field-width-res-640-value="140" data-field-width-res-480-value="130" data-field-width-res-320-value="90" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
                         <a class='tn-atom' href="#" target="_blank"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3562-6662-4164-b964-623634393464/icon.svg' imgfield='tn_img_1572866288938'> </a>
                     </div>
-                    <div class='t396__elem tn-elem tn-elem__1464117061572866288946 t-animate' data-elem-id='1572866288946' data-elem-type='text' data-field-top-value="-1392" data-field-top-res-960-value="-1301" data-field-top-res-640-value="-1720" data-field-top-res-480-value="-2045" data-field-top-res-320-value="-2009" data-field-left-value="603" data-field-left-res-960-value="579" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="441" data-field-width-res-960-value="341" data-field-width-res-640-value="341" data-field-width-res-320-value="291" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="#" target="_blank"><!-- NAVIGRAM — GPS LOCATOR --></a> </div>
-                    <div class='t396__elem tn-elem tn-elem__1464117061572866288956 t-animate' data-elem-id='1572866288956' data-elem-type='text' data-field-top-value="-1361" data-field-top-res-960-value="-1270" data-field-top-res-640-value="-1687" data-field-top-res-480-value="-2010" data-field-top-res-320-value="-1966" data-field-left-value="603" data-field-left-res-960-value="579" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="401" data-field-width-res-960-value="371" data-field-width-res-640-value="501" data-field-width-res-480-value="351" data-field-width-res-320-value="271" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50"> <a class='tn-atom' href="#" target="_blank"><!-- Семейный локатор для мобильных платформ --><br></a> </div>
-                   
-                   <!--  <div class='t396__elem tn-elem tn-elem__1464117061572867452408 t-animate' data-elem-id='1572867452408' data-elem-type='image' data-field-top-value="704" data-field-top-res-960-value="725" data-field-top-res-640-value="663" data-field-top-res-480-value="661" data-field-top-res-320-value="697" data-field-left-value="35" data-field-left-res-960-value="40" data-field-left-res-640-value="87" data-field-left-res-480-value="11" data-field-left-res-320-value="10" data-field-width-value="580" data-field-width-res-960-value="520" data-field-width-res-640-value="500" data-field-width-res-320-value="330" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
+                    <div class='t396__elem tn-elem tn-elem__1464117061572866288946 t-animate' data-elem-id='1572866288946' data-elem-type='text' data-field-top-value="-1392" data-field-top-res-960-value="-1301" data-field-top-res-640-value="-1720" data-field-top-res-480-value="-2045" data-field-top-res-320-value="-2009" data-field-left-value="603" data-field-left-res-960-value="579" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="441" data-field-width-res-960-value="341" data-field-width-res-640-value="341" data-field-width-res-320-value="291" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
+                        <a class='tn-atom' href="#" target="_blank">
+                            <!-- NAVIGRAM — GPS LOCATOR -->
+                        </a>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__1464117061572866288956 t-animate' data-elem-id='1572866288956' data-elem-type='text' data-field-top-value="-1361" data-field-top-res-960-value="-1270" data-field-top-res-640-value="-1687" data-field-top-res-480-value="-2010" data-field-top-res-320-value="-1966" data-field-left-value="603" data-field-left-res-960-value="579" data-field-left-res-640-value="48" data-field-left-res-480-value="30" data-field-left-res-320-value="24" data-field-width-value="401" data-field-width-res-960-value="371" data-field-width-res-640-value="501" data-field-width-res-480-value="351" data-field-width-res-320-value="271" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
+                        <a class='tn-atom' href="#" target="_blank">
+                            <!-- Семейный локатор для мобильных платформ --><br></a>
+                    </div>
+
+                    <!--  <div class='t396__elem tn-elem tn-elem__1464117061572867452408 t-animate' data-elem-id='1572867452408' data-elem-type='image' data-field-top-value="704" data-field-top-res-960-value="725" data-field-top-res-640-value="663" data-field-top-res-480-value="661" data-field-top-res-320-value="697" data-field-left-value="35" data-field-left-res-960-value="40" data-field-left-res-640-value="87" data-field-left-res-480-value="11" data-field-left-res-320-value="10" data-field-width-value="580" data-field-width-res-960-value="520" data-field-width-res-640-value="500" data-field-width-res-320-value="330" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
                         <a class='tn-atom' href="https://flatonica.com/roulette" target="_blank"> <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3162-3035-4933-b536-666166613536/roulette.png' imgfield='tn_img_1572867452408'> </a>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__1464117061572867977882 t-animate' data-elem-id='1572867977882' data-elem-type='image' data-field-top-value="1052" data-field-top-res-960-value="1051" data-field-top-res-640-value="995" data-field-top-res-480-value="995" data-field-top-res-320-value="910" data-field-left-value="-30" data-field-left-res-960-value="-20" data-field-left-res-640-value="20" data-field-left-res-480-value="20" data-field-left-res-320-value="10" data-field-width-value="120" data-field-width-res-960-value="100" data-field-width-res-320-value="80" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50" data-animate-prx="mouse" data-animate-prx-dx="10" data-animate-prx-dy="10">
@@ -1079,7 +1138,7 @@
                         <h1 class='tn-atom'>Contact Us</h1>
                     </div>
                     <div class='t396__elem tn-elem tn-elem__826909221564238546658 t-animate' data-elem-id='1564238546658' data-elem-type='text' data-field-top-value="109" data-field-top-res-960-value="89" data-field-top-res-640-value="67" data-field-top-res-480-value="124" data-field-top-res-320-value="140" data-field-left-value="449" data-field-left-res-960-value="413" data-field-left-res-640-value="11" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="340" data-field-width-res-640-value="270" data-field-width-res-320-value="234" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-style="fadeinup" data-animate-duration="2" data-animate-distance="50">
-                        <h1 class='tn-atom'>Gr8ayu<span style="color: rgb(47, 156, 248);">@rvecell</span>.in</h1>
+                        <h1 class='tn-atom'>test<span style="color: rgb(47, 156, 248);">@rvecell</span>.in</h1>
                     </div>
                 </div>
             </div>
